@@ -1,0 +1,38 @@
+name: TestNG CI on Windows
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on pushes to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger on pull requests to the main branch
+
+jobs:
+  build:
+    runs-on: windows-latest  # Use Windows runner
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+
+      - name: Install dependencies (TestNG)
+        run: |
+          mkdir -p lib
+          # Download TestNG JAR (you can replace with your version)
+          Invoke-WebRequest -Uri "https://repo.maven.apache.org/maven2/org/testng/testng/7.7.1/testng-7.7.1.jar" -OutFile "lib/testng-7.7.1.jar"
+
+      - name: Compile Java code
+        run: |
+          # Compile TestNG test classes (adjust for your path)
+          javac -cp "lib/testng-7.7.1.jar" src/test/java/YourTestNGTestClass.java
+
+      - name: Run TestNG tests
+        run: |
+          # Run the TestNG tests (use testng.xml if you have one)
+          java -cp "lib/testng-7.7.1.jar;src/test/java" org.testng.TestNG testng.xml
