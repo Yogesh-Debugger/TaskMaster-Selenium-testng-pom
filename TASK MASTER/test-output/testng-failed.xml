@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Simple Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddTask Test(failed)">
+    <classes>
+      <class name="testCases.Test_AddTask">
+        <methods>
+          <include name="test_Calender"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Test_AddTask -->
+    </classes>
+  </test> <!-- AddTask Test(failed) -->
+</suite> <!-- Failed suite [Simple Test Suite] -->

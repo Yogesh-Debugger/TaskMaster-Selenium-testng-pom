@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T13:38:48 IST" name="Simple Test Suite" finished-at="2024-11-13T13:39:04 IST" duration-ms="16471">
+    <groups>
+    </groups>
+    <test started-at="2024-11-13T13:38:48 IST" name="Title Name Test" finished-at="2024-11-13T13:38:48 IST" duration-ms="224">
+      <class name="testCases.Test_TitleName">
+        <test-method signature="test_title_Name()[pri:0, instance:testCases.Test_TitleName@71d44a3]" started-at="2024-11-13T13:38:48 IST" name="test_title_Name" finished-at="2024-11-13T13:38:48 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_title_Name -->
+      </class> <!-- testCases.Test_TitleName -->
+    </test> <!-- Title Name Test -->
+    <test started-at="2024-11-13T13:38:48 IST" name="Alert Message Test" finished-at="2024-11-13T13:38:48 IST" duration-ms="139">
+      <class name="testCases.Test_AlertMessage">
+        <test-method signature="test_Alert()[pri:0, instance:testCases.Test_AlertMessage@6150c3ec]" started-at="2024-11-13T13:38:48 IST" name="test_Alert" finished-at="2024-11-13T13:38:48 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Alert -->
+      </class> <!-- testCases.Test_AlertMessage -->
+    </test> <!-- Alert Message Test -->
+    <test started-at="2024-11-13T13:38:48 IST" name="Download Task Test" finished-at="2024-11-13T13:38:49 IST" duration-ms="962">
+      <class name="testCases.Test_Download_Task">
+        <test-method signature="test_TextBox()[pri:0, instance:testCases.Test_Download_Task@10683d9d]" started-at="2024-11-13T13:38:48 IST" name="test_TextBox" finished-at="2024-11-13T13:38:49 IST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TextBox -->
+      </class> <!-- testCases.Test_Download_Task -->
+    </test> <!-- Download Task Test -->
+    <test started-at="2024-11-13T13:38:49 IST" name="Iframe Test" finished-at="2024-11-13T13:38:57 IST" duration-ms="8068">
+      <class name="testCases.Test_Iframes">
+        <test-method signature="test_Iframe()[pri:0, instance:testCases.Test_Iframes@217ed35e]" started-at="2024-11-13T13:38:49 IST" name="test_Iframe" finished-at="2024-11-13T13:38:57 IST" duration-ms="8064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Iframe -->
+      </class> <!-- testCases.Test_Iframes -->
+    </test> <!-- Iframe Test -->
+    <test started-at="2024-11-13T13:38:57 IST" name="window Handling Test" finished-at="2024-11-13T13:39:00 IST" duration-ms="3228">
+      <class name="testCases.Window_Handling">
+        <test-method signature="window_Handling()[pri:0, instance:testCases.Window_Handling@477b4cdf]" started-at="2024-11-13T13:38:57 IST" name="window_Handling" finished-at="2024-11-13T13:39:00 IST" duration-ms="3225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- window_Handling -->
+      </class> <!-- testCases.Window_Handling -->
+    </test> <!-- window Handling Test -->
+    <test started-at="2024-11-13T13:39:00 IST" name="Return Test" finished-at="2024-11-13T13:39:04 IST" duration-ms="3712">
+      <class name="testCases.Return_To_Home_Page">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Return_To_Home_Page@185a6e9]" started-at="2024-11-13T13:38:44 IST" name="setup" finished-at="2024-11-13T13:38:48 IST" duration-ms="3240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Return_To_HomePage()[pri:0, instance:testCases.Return_To_Home_Page@185a6e9]" started-at="2024-11-13T13:39:00 IST" name="Test_Return_To_HomePage" finished-at="2024-11-13T13:39:04 IST" duration-ms="3708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Return_To_HomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Return_To_Home_Page@185a6e9]" started-at="2024-11-13T13:39:04 IST" name="tearDown" finished-at="2024-11-13T13:39:04 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Return_To_Home_Page -->
+    </test> <!-- Return Test -->
+  </suite> <!-- Simple Test Suite -->
+</testng-results>

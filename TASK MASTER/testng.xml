@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Simple Test Suite" parallel="false">
+
+    <test name="Title Name Test">
+        <classes>
+        <class name="testCases.Test_TitleName">
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Alert Message Test">
+        <classes>
+        <class name="testCases.Test_AlertMessage">
+            </class>
+        </classes>
+    </test>
+    
+     <test name="Download Task Test">
+        <classes>
+        <class name="testCases.Test_Download_Task">
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Iframe Test">
+        <classes>
+        <class name="testCases.Test_Iframes">
+            </class>
+        </classes>
+    </test>
+    
+    <test name="window Handling Test">
+        <classes>
+        <class name="testCases.Window_Handling">
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Return Test">
+        <classes>
+        <class name="testCases.Return_To_Home_Page">
+            </class>
+        </classes>
+    </test>
+</suite>
